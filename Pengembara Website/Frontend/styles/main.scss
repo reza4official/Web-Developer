@@ -1,0 +1,231 @@
+body {
+  background-color: #e4e6eb;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+}
+
+// Navigation Bar
+// Logo
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+// Navigation Bar Menu
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071c4d;
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
+      }
+    }
+  }
+}
+
+// Button Login Position
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 70px;
+  border-radius: 0;
+}
+
+// Button Login Component
+.btn-login {
+  background-color: #071c4d;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #163682;
+    color: #ffffff;
+  }
+}
+
+// Header
+header {
+  padding: 180px 0 162px;
+  margin-top: -70px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  h1,
+  p {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 22px;
+    font-weight: normal;
+  }
+
+  //   Button Get Started
+  .btn-get-started {
+    background-color: #ff7e00;
+    font-family: "Assistant", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 50px;
+
+    &:hover {
+      background-color: #ff9e3e;
+      color: #ffffff;
+    }
+  }
+}
+
+// Statistik
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background: #fff;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+// Wisata Popular
+.section-popular {
+  min-height: 563px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -250px;
+}
+
+.section-popular-heading {
+  margin-top: 180px;
+
+  h2,
+  p {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+// Card Wisata
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: #dddddd;
+      color: #ffffff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+      margin-top: 100px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #ff7e00;
+        font-family: "Assistant", sans-serif;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 20px;
+
+        &:hover {
+          background-color: #ff9e3e;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+// Our Partner
+.section-partners {
+  background-color: #ffffff;
+  margin-top: -250px;
+  padding-top: 350px;
+  padding-bottom: 75px;
+  h2,
+  p {
+    font-family: "Playfair Display", serif;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  img {
+    max-width: 100%;
+    padding-top: 15px;
+  }
+}
+
+// Testimonial Header
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  margin-top: -170px;
+  padding-top: 300px;
+  padding-bottom: 50px;
+
+  h2,
+  p {
+    font-family: "Playfair Display", serif;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+// Testimonial Content
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
