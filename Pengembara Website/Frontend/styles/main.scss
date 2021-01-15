@@ -205,8 +205,8 @@ header {
 .section-testimonial-heading {
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   margin-top: -170px;
-  padding-top: 300px;
-  padding-bottom: 50px;
+  padding-top: 190px;
+  padding-bottom: 500px;
 
   h2,
   p {
@@ -226,6 +226,27 @@ header {
 
 // Testimonial Content
 .section-testimonial-content {
-  margin-top: -300px;
-  padding-bottom: 50px;
+  margin-top: -360px;
+  .card-testimonial {
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    p {
+      color: #6e6e6e;
+    }
+
+    .testimonial {
+      font-size: 22px;
+      font-weight: lighter;
+      margin-left: 30px !important;
+      margin-right: 30px !important;
+    }
+
+    .trip-to {
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
 }

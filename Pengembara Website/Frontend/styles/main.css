@@ -184,8 +184,8 @@ header .btn-get-started:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   margin-top: -170px;
-  padding-top: 300px;
-  padding-bottom: 50px;
+  padding-top: 190px;
+  padding-bottom: 500px;
 }
 
 .section-testimonial-heading h2,
@@ -204,7 +204,27 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-content {
-  margin-top: -300px;
-  padding-bottom: 50px;
+  margin-top: -360px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-testimonial-content .card-testimonial p {
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-size: 20px;
+  font-weight: normal;
 }
 /*# sourceMappingURL=main.css.map */
