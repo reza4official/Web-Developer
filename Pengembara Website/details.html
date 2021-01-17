@@ -8,8 +8,7 @@
       rel="stylesheet"
       href="Frontend/libraries/bootstrap/css/bootstrap.css"
     />
-    <link rel="stylesheet" href="Frontend/libraries/xZoom/xzoom.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="Frontend/libraries/xzoom/dist/xzoom.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -105,7 +104,68 @@
               <div class="card card-details">
                 <h1>Nusa Penida</h1>
                 <p>Republic of Indonesia</p>
-                <div class="gallery"></div>
+                <div class="gallery">
+                  <div class="xzoom-container">
+                    <img
+                      src="frontend/images/main_pic/nusa_penida_main.png"
+                      class="xzoom"
+                      id="xzoom-default"
+                      xoriginal="frontend/images/originals/nusa_penida_main_original.jpg"
+                    />
+                  </div>
+                  <div class="xzoom-thumbs">
+                    <a
+                      href="frontend/images/originals/nusa_penida_main_original.jpg"
+                    >
+                      <img
+                        src="frontend/images/nusa_penida_1.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/main_pic/nusa_penida_main.png"
+                      />
+                    </a>
+                    <a
+                      href="frontend/images/originals/nusa_penida_2_original.jpg"
+                    >
+                      <img
+                        src="frontend/images/nusa_penida_2.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/main_pic/nusa_penida_main_2.png"
+                      />
+                    </a>
+                    <a
+                      href="frontend/images/originals/nusa_penida_3_original.jpg"
+                    >
+                      <img
+                        src="frontend/images/nusa_penida_3.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/main_pic/nusa_penida_main_3.png"
+                      />
+                    </a>
+                    <a
+                      href="frontend/images/originals/nusa_penida_4_original.jpg"
+                    >
+                      <img
+                        src="frontend/images/nusa_penida_4.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/main_pic/nusa_penida_main_4.png"
+                      />
+                    </a>
+                    <a
+                      href="frontend/images/originals/nusa_penida_5_original.jpg"
+                    >
+                      <img
+                        src="frontend/images/nusa_penida_5.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/main_pic/nusa_penida_main_5.png"
+                      />
+                    </a>
+                  </div>
+                </div>
                 <h2>About Destination</h2>
                 <p>
                   Nusa Penida is an island southeast of Indonesia's island Bali
@@ -219,5 +279,16 @@
     <script src="Frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
     <script src="Frontend/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+      });
+    </script>
   </body>
 </html>
