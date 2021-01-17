@@ -1,2 +1,8 @@
 # Web-Developer
-WebDev
+
+WebDev Practice
+
+Front-end
+
+- Homepage: Done
+- Details page: On progress
