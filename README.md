@@ -5,4 +5,5 @@ WebDev Practice
 Front-end
 
 - Homepage: Done
-- Details page: On progress
+- Details page: Done
+- Checkout page: On progress
