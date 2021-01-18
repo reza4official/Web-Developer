@@ -337,6 +337,13 @@ header .btn-get-started:hover {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
+=======
+.section-details-content .card-right table {
+  margin-bottom: 10px;
+}
+
+>>>>>>> 34ce35d900e1838303260b26f28d3ba2d15efd78
 .section-details-content .card-right table th,
 .section-details-content .card-right table td {
   font-size: 18px;
