@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="Frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="Frontend/libraries/xzoom/dist/xzoom.css" />
+    <link rel="stylesheet" href="Frontend/libraries/gijgo/css/gijgo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Frontend/styles/main.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <div class="container">
+      <!-- Container -->
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <!-- Logo -->
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a href="index.html" class="navbar-brand">
+            <img src="frontend/images/logo-pengembara.png" alt="" />
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp; Beyond the explorer of the world
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <!-- Details -->
+      <section class="section-details-header"></section>
+      <!-- Breadcrumb -->
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">Paket Travel</li>
+                  <li class="breadcrumb-item">Details</li>
+                  <li class="breadcrumb-item active">Checkout</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Who is Going?</h1>
+                <p>Trip to Nusa Penida, Bali, Indonesia</p>
+
+                <!-- Table Members Going Details -->
+                <div class="attendee">
+                  <table class="table table-responsive-sm text-center">
+                    <thead>
+                      <tr>
+                        <td>Picture</td>
+                        <td>Name</td>
+                        <td>Nationality</td>
+                        <td>VISA</td>
+                        <td>Passport</td>
+                        <td></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <td>
+                        <img src="frontend/images/ava_user.png" height="60" />
+                      </td>
+                      <td class="align-middle">Reza Armstrong</td>
+                      <td class="align-middle">SPA</td>
+                      <td class="align-middle">30 Days</td>
+                      <td class="align-middle">Active</td>
+                      <td class="align-middle">
+                        <a href="#">
+                          <img
+                            src="frontend/images/remove_icon.png"
+                            height="20"
+                          />
+                        </a>
+                      </td>
+                    </tbody>
+                    <tbody>
+                      <td>
+                        <img src="frontend/images/ava_user.png" height="60" />
+                      </td>
+                      <td class="align-middle">Reza Wira</td>
+                      <td class="align-middle">IDN</td>
+                      <td class="align-middle">N/A</td>
+                      <td class="align-middle">Active</td>
+                      <td class="align-middle">
+                        <a href="#">
+                          <img
+                            src="frontend/images/remove_icon.png"
+                            height="20"
+                          />
+                        </a>
+                      </td>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!-- Add Member Form -->
+                <div class="member mt-3">
+                  <h2>Add Member</h2>
+                  <form class="form-inline">
+                    <!-- Username Input -->
+                    <label for="inputUsername" class="sr-only">Name</label>
+                    <input
+                      type="text"
+                      name="inputUsername"
+                      class="form-control mb-2 mr-sm-2"
+                      id="inputUsername"
+                      placeholder="Username"
+                    />
+
+                    <!-- VISA Dropdown -->
+                    <label for="inputVisa" class="sr-only">Visa</label>
+                    <select
+                      name="inputVisa"
+                      id="inputVisa"
+                      class="custom-select mb-2 mr-sm-2"
+                    >
+                      <option value="VISA" selected>VISA</option>
+                      <option value="30 Days">30 Days</option>
+                      <option value="N/A">N/A</option>
+                    </select>
+
+                    <!-- DOE Passport Date Picker -->
+                    <label for="doePassport" class="sr-only">
+                      DOE Passport
+                    </label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <input
+                        type="text"
+                        class="form-control datepicker"
+                        id="doePassport"
+                        placeholder="DOE Passport"
+                      />
+                    </div>
+
+                    <!-- Add Now Button -->
+                    <button type="submit" class="btn btn-add-now mb-2 px-4">
+                      Add Now
+                    </button>
+                  </form>
+                  <h3 class="mt-2 mb-2">Note</h3>
+                  <p class="disclaimer mb-0">
+                    You are only able to invite member that has registered in
+                    Pengembara.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Trip Information Card -->
+            <div class="col-lg-4">
+              <div class="card card-details card-right">
+                <h2>Members are going</h2>
+                <div class="members my-2">
+                  <img
+                    src="frontend/images/members_pic.png"
+                    alt=""
+                    class="member-images mr-1"
+                  />
+                  <img
+                    src="frontend/images/members_pic.png"
+                    alt=""
+                    class="member-images mr-1"
+                  />
+                  <img
+                    src="frontend/images/members_pic.png"
+                    alt=""
+                    class="member-images mr-1"
+                  />
+                  <img
+                    src="frontend/images/members_pic.png"
+                    alt=""
+                    class="member-images mr-1"
+                  />
+                  <img
+                    src="frontend/images/more_members_pic.png"
+                    alt=""
+                    class="member-images mr-1"
+                  />
+                </div>
+                <hr />
+                <h2 class="mb-3">Trip Informations</h2>
+                <table class="trip-information">
+                  <tr>
+                    <th width="50%">Date of Departure</th>
+                    <td width="50%" class="text-right">8 January 2021</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Duration</th>
+                    <td width="50%" class="text-right">5D 4N</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Type</th>
+                    <td width="50%" class="text-right">Open Trip</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Price</th>
+                    <td width="50%" class="text-right">$100.00 / person</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="join-container">
+                <a href="#" class="btn btn-block btn-join-now mt-3 py-2">
+                  Join Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Social Media Kit</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Reward</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>COMPANY</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>GET CONNECTED</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Makassar - Sulawesi Selatan</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">0853 - 4277 - 4497</a></li>
+                  <li><a href="#">support@pengembara.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4 col-auto text-gray-500 font-weight-light"
+        >
+          2021 Copyright Pengembara | All rights reserved | Made in Makassar
+        </div>
+      </div>
+    </footer>
+
+    <!-- libraries -->
+    <script src="Frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="Frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+
+        $(".datepicker").datepicker({
+          uiLibrary: "bootstrap4",
+          icons: {
+            rightIcon: '<img src="frontend/images/ic_doe.png" alt="" />',
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

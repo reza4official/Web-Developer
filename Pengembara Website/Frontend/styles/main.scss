@@ -356,7 +356,7 @@ header {
       font-weight: 600;
     }
 
-    table {
+    .trip-information {
       th,
       td {
         font-size: 18px;
@@ -366,6 +366,43 @@ header {
       td {
         color: #b1b1b1;
       }
+    }
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 45px;
+    margin-bottom: 8px;
+  }
+
+  .disclaimer {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b1b1b1;
+  }
+
+  .gj-datepicker {
+    .datepicker {
+      border-right: 0;
+    }
+
+    .input-group-append {
+      .btn {
+        border-right: 30px;
+      }
+    }
+  }
+
+  .btn-add-now {
+    background-color: #071c4d;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+
+    &:hover {
+      background-color: #163682;
     }
   }
 
