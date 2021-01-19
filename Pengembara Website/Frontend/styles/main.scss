@@ -318,6 +318,7 @@ header {
   .breadcrumb {
     background-color: transparent;
     padding: 0;
+    margin-top: 10px;
     margin-bottom: 40px;
   }
 
@@ -345,16 +346,6 @@ header {
       font-size: 18px;
       color: #b1b1b1;
     }
-  }
-
-  .card-right {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-
-    h2 {
-      font-size: 20px;
-      font-weight: 600;
-    }
 
     .trip-information {
       th,
@@ -366,6 +357,39 @@ header {
       td {
         color: #b1b1b1;
       }
+
+      .text-total {
+        font-weight: bold;
+        .text-blue {
+          color: #071c4d;
+        }
+        .text-orange {
+          color: #ff7e00;
+        }
+      }
+    }
+
+    .payment-instruction {
+      font-size: 14px;
+      font-weight: normal;
+      color: #b1b1b1;
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
     }
   }
 
@@ -377,10 +401,28 @@ header {
     margin-bottom: 8px;
   }
 
-  .disclaimer {
-    font-weight: 300;
-    font-size: 14px;
-    color: #b1b1b1;
+  .bank {
+    .bank-item {
+      h3,
+      p {
+        color: #071c4d;
+        margin-bottom: 0;
+        font-size: 18px;
+      }
+
+      .description {
+        margin-top: -23px;
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+      }
+
+      .bank-images {
+        width: 75px;
+        height: 75px;
+        float: left;
+      }
+    }
   }
 
   .gj-datepicker {

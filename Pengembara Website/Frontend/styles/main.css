@@ -296,6 +296,7 @@ header .btn-get-started:hover {
 .section-details-content .breadcrumb {
   background-color: transparent;
   padding: 0;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
@@ -326,24 +327,49 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
+.section-details-content .card-details .trip-information th,
+.section-details-content .card-details .trip-information td {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.section-details-content .card-details .trip-information td {
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .trip-information .text-total {
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-information .text-total .text-blue {
+  color: #071c4d;
+}
+
+.section-details-content .card-details .trip-information .text-total .text-orange {
+  color: #ff7e00;
+}
+
+.section-details-content .card-details .payment-instruction {
+  font-size: 14px;
+  font-weight: normal;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
 .section-details-content .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  border-bottom: none;
 }
 
 .section-details-content .card-right h2 {
   font-size: 20px;
   font-weight: 600;
-}
-
-.section-details-content .card-right .trip-information th,
-.section-details-content .card-right .trip-information td {
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.section-details-content .card-right .trip-information td {
-  color: #b1b1b1;
 }
 
 .section-details-content h3 {
@@ -354,10 +380,24 @@ header .btn-get-started:hover {
   margin-bottom: 8px;
 }
 
-.section-details-content .disclaimer {
-  font-weight: 300;
-  font-size: 14px;
-  color: #b1b1b1;
+.section-details-content .bank .bank-item h3,
+.section-details-content .bank .bank-item p {
+  color: #071c4d;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.section-details-content .bank .bank-item .description {
+  margin-top: -23px;
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .bank .bank-item .bank-images {
+  width: 75px;
+  height: 75px;
+  float: left;
 }
 
 .section-details-content .gj-datepicker .datepicker {

@@ -6,4 +6,5 @@ Front-end
 
 - Homepage: Done
 - Details page: Done
-- Checkout page: On progress
+- Checkout page: Done
+- Checkout Success Page = On Progress
