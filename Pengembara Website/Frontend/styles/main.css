@@ -482,4 +482,8 @@ header .btn-get-started:hover {
 .section-details-content .btn-join-now:hover {
   background-color: #ff9e3e;
 }
+
+.section-details-content .btn-cancel-booking {
+  font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */
