@@ -375,10 +375,16 @@ header {
       color: #b1b1b1;
     }
 
-    .disclaimer {
-      font-weight: 300;
-      font-size: 14px;
-      color: #b1b1b1;
+    .card-note {
+      background-color: #e4e6eb;
+      border: none;
+      .notes {
+        .disclaimer {
+          font-weight: 300;
+          font-size: 14px;
+          color: #071c4d;
+        }
+      }
     }
   }
 

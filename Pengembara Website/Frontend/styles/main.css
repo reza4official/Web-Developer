@@ -355,10 +355,15 @@ header .btn-get-started:hover {
   color: #b1b1b1;
 }
 
-.section-details-content .card-details .disclaimer {
+.section-details-content .card-details .card-note {
+  background-color: #e4e6eb;
+  border: none;
+}
+
+.section-details-content .card-details .card-note .notes .disclaimer {
   font-weight: 300;
   font-size: 14px;
-  color: #b1b1b1;
+  color: #071c4d;
 }
 
 .section-details-content .card-right {
