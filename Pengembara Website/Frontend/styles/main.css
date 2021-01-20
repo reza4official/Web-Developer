@@ -491,4 +491,35 @@ header .btn-get-started:hover {
 .section-details-content .btn-cancel-booking {
   font-size: 20px;
 }
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success img {
+  margin-top: -140px;
+  width: 250px;
+  height: 250px;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.section-success p {
+  font-size: 18px;
+  color: #b1b1bb;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071c4d;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #163682;
+}
 /*# sourceMappingURL=main.css.map */
