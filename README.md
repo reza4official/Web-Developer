@@ -8,3 +8,6 @@ Front-end
 - Details page: Done
 - Checkout page: Done
 - Checkout Success Page: Done
+
+Back-end
+On Progress
