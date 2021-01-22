@@ -3,5 +3,8 @@
     "editor.fontLigatures": true,
     "editor.cursorBlinking": "expand",
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.fontWeight": "400"
+    "editor.fontWeight": "400",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
 }
