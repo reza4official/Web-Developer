@@ -4,11 +4,16 @@ WebDev Practice
 
 Front-end
 
-- Homepage: Done
-- Details page: Done
-- Checkout page: Done
+- Home Page: Done
+- Details Page: Done
+- Checkout Page: Done
 - Checkout Success Page: Done
 
 Back-end
 
-- On Progress
+- Admin Page: On Progress
+- Frontend Templating:
+  - Home Page: Done
+  - Details Page: Done
+  - Checkout Page: On Progress
+  - Checkout Success Page: On Queue
