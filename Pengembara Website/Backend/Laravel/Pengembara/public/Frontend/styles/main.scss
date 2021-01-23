@@ -438,7 +438,11 @@ header {
 
         .input-group-append {
             .btn {
-                border-right: 30px;
+                border-right: -1px;
+            }
+            img {
+                margin-left: -7px;
+                margin-top: -1px;
             }
         }
     }
