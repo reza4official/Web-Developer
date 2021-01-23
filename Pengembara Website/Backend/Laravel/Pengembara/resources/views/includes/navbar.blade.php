@@ -3,9 +3,9 @@
     <!-- Container -->
     <nav class="row navbar navbar-expand-lg navbar-light bg-white">
     <!-- Logo -->
-    <a href="#" class="navbar-brand">
+    <a href="{{route('home')}}" class="navbar-brand">
         <img
-        src="frontend/images/logo-pengembara.png"
+        src="{{url('frontend/images/logo-pengembara.png')}}"
         alt="logo-pengembara"
         />
     </a>
