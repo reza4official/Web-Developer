@@ -205,7 +205,7 @@
                 </div>
                 <div class="join-container">
                     <a
-                    href="checkout.html"
+                    href="{{url('/checkout')}}"
                     class="btn btn-block btn-join-now mt-3 py-2"
                     >
                     Join Now
