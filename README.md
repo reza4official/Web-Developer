@@ -15,5 +15,5 @@ Back-end
 - Frontend Templating:
   - Home Page: Done
   - Details Page: Done
-  - Checkout Page: On Progress
+  - Checkout Page: Done
   - Checkout Success Page: On Queue
