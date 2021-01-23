@@ -19,6 +19,9 @@ Route::get('/', 'HomeController@index')
 Route::get('/detail', 'DetailController@index')
     ->name('detai');
 
+Route::get('/checkout', 'CheckoutController@index')
+    ->name('checkout');
+
 Route::prefix('admin')
     ->namespace('Admin')
     ->group(function () {
