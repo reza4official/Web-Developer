@@ -36,61 +36,61 @@
                     <div class="gallery">
                     <div class="xzoom-container">
                         <img
-                        src="frontend/images/main_pic/nusa_penida_main.png"
+                        src="{{url('frontend/images/main_pic/nusa_penida_main.png')}}"
                         class="xzoom"
                         id="xzoom-default"
-                        xoriginal="frontend/images/originals/nusa_penida_main_original.jpg"
+                        xoriginal="{{url('frontend/images/originals/nusa_penida_main_original.jpg')}}"
                         />
                     </div>
                     <div class="xzoom-thumbs">
                         <a
-                        href="frontend/images/originals/nusa_penida_main_original.jpg"
+                        href="{{url('frontend/images/originals/nusa_penida_main_original.jpg')}}"
                         >
                         <img
-                            src="frontend/images/nusa_penida_1.png"
+                            src="{{url('frontend/images/nusa_penida_1.png')}}"
                             class="xzoom-gallery"
                             width="128"
-                            xpreview="frontend/images/main_pic/nusa_penida_main.png"
+                            xpreview="{{url('frontend/images/main_pic/nusa_penida_main.png')}}"
                         />
                         </a>
                         <a
-                        href="frontend/images/originals/nusa_penida_2_original.jpg"
+                        href="{{url('frontend/images/originals/nusa_penida_2_original.jpg')}}"
                         >
                         <img
-                            src="frontend/images/nusa_penida_2.png"
+                            src="{{url('frontend/images/nusa_penida_2.png')}}"
                             class="xzoom-gallery"
                             width="128"
-                            xpreview="frontend/images/main_pic/nusa_penida_main_2.png"
+                            xpreview="{{url('frontend/images/main_pic/nusa_penida_main_2.png')}}"
                         />
                         </a>
                         <a
-                        href="frontend/images/originals/nusa_penida_3_original.jpg"
+                        href="{{url('frontend/images/originals/nusa_penida_3_original.jpg')}}"
                         >
                         <img
-                            src="frontend/images/nusa_penida_3.png"
+                            src="{{url('frontend/images/nusa_penida_3.png')}}"
                             class="xzoom-gallery"
                             width="128"
-                            xpreview="frontend/images/main_pic/nusa_penida_main_3.png"
+                            xpreview="{{url('frontend/images/main_pic/nusa_penida_main_3.png')}}"
                         />
                         </a>
                         <a
-                        href="frontend/images/originals/nusa_penida_4_original.jpg"
+                        href="{{url('frontend/images/originals/nusa_penida_4_original.jpg')}}"
                         >
                         <img
-                            src="frontend/images/nusa_penida_4.png"
+                            src="{{url('frontend/images/nusa_penida_4.png')}}"
                             class="xzoom-gallery"
                             width="128"
-                            xpreview="frontend/images/main_pic/nusa_penida_main_4.png"
+                            xpreview="{{url('frontend/images/main_pic/nusa_penida_main_4.png')}}"
                         />
                         </a>
                         <a
-                        href="frontend/images/originals/nusa_penida_5_original.jpg"
+                        href="{{url('frontend/images/originals/nusa_penida_5_original.jpg')}}"
                         >
                         <img
-                            src="frontend/images/nusa_penida_5.png"
+                            src="{{url('frontend/images/nusa_penida_5.png')}}"
                             class="xzoom-gallery"
                             width="128"
-                            xpreview="frontend/images/main_pic/nusa_penida_main_5.png"
+                            xpreview="{{url('frontend/images/main_pic/nusa_penida_main_5.png')}}"
                         />
                         </a>
                     </div>
@@ -116,7 +116,7 @@
                     <div class="features row">
                     <div class="col-md-4">
                         <img
-                        src="frontend/images/event_icon.png"
+                        src="{{url('frontend/images/event_icon.png')}}"
                         alt="event-icon"
                         class="featured-images"
                         />
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-md-4 border-left">
                         <img
-                        src="frontend/images/language_icon.png"
+                        src="{{url('frontend/images/language_icon.png')}}"
                         alt="language-icon"
                         class="featured-images"
                         />
@@ -138,7 +138,7 @@
                     </div>
                     <div class="col-md-4 border-left">
                         <img
-                        src="frontend/images/foods_icon.png"
+                        src="{{url('frontend/images/foods_icon.png')}}"
                         alt="foods-icon"
                         class="featured-images"
                         />
@@ -157,27 +157,27 @@
                     <h2>Members are going</h2>
                     <div class="members my-2">
                     <img
-                        src="frontend/images/members_pic.png"
+                        src="{{url('frontend/images/members_pic.png')}}"
                         alt=""
                         class="member-images mr-1"
                     />
                     <img
-                        src="frontend/images/members_pic.png"
+                        src="{{url('frontend/images/members_pic.png')}}"
                         alt=""
                         class="member-images mr-1"
                     />
                     <img
-                        src="frontend/images/members_pic.png"
+                        src="{{url('frontend/images/members_pic.png')}}"
                         alt=""
                         class="member-images mr-1"
                     />
                     <img
-                        src="frontend/images/members_pic.png"
+                        src="{{url('frontend/images/members_pic.png')}}"
                         alt=""
                         class="member-images mr-1"
                     />
                     <img
-                        src="frontend/images/more_members_pic.png"
+                        src="{{url('frontend/images/more_members_pic.png')}}"
                         alt=""
                         class="member-images mr-1"
                     />
