@@ -11,9 +11,10 @@ Front-end
 
 Back-end
 
-- Admin Page: On Progress
-- Frontend Templating:
-  - Home Page: Done
-  - Details Page: Done
-  - Checkout Page: Done
-  - Checkout Success Page: On Queue
+- Laravel Integration
+  - Admin Page: On Progress
+  - Frontend Templating:
+    - Home Page: Done
+    - Details Page: Done
+    - Checkout Page: Done
+    - Checkout Success Page: Done
